@@ -1,0 +1,4 @@
+minimumReleaseAgeExclude:
+  - openai@7.59.0
+  - '@electric-sql/pglite-pgvector@0.0.18'
+  - '@electric-sql/pglite@0.5.17'

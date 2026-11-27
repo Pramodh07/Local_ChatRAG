@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "users": [
+    {
+      "id": "11111111-1111-4111-8111-111111111111",
+      "email": "alice@example.test",
+      "displayName": "Alice",
+      "avatarUrl": null,
+      "passwordSalt": "c2FsdC1hbGljZQ",
+      "passwordHash": "aGFzaC1hbGljZQ",
+      "createdAt": "2026-11-20T10:00:00.000Z"
+    },
+    {
+      "id": "22222222-2222-4222-8222-222222222222",
+      "email": "bob@example.test",
+      "displayName": "Bob",
+      "passwordSalt": "c2FsdC1ib2I",
+      "passwordHash": "aGFzaC1ib2I",
+      "createdAt": "2026-11-20T10:05:00.000Z"
+    }
+  ],
+  "sessions": [
+    {
+      "id": "aaaaaaaa-1111-4000-8000-000000000001",
+      "tokenHash": "session-token-hash",
+      "userId": "11111111-1111-4111-8111-111111111111",
+      "expiresAt": "2026-11-27T10:00:00.000Z"
+    }
+  ]
+}
